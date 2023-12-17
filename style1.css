@@ -1,0 +1,382 @@
+body{
+    background-color: azure;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem ;
+    background-color: antiquewhite;
+}
+#check{
+    display: none;
+}
+.menu{
+    display: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 3.5rem;
+    width:3.5rem;
+}
+#searcharea{
+    height: 2rem;
+    width: 50rem;
+}
+.nav1 ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-top: 0.5rem;
+}
+.nav1 ul li{
+    display: inline-block;
+    padding: 1rem;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+}
+.icons span{
+    cursor: pointer;
+    padding-top: 0vh;
+}
+#search{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#person{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#shopping_cart{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#favourite{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+#more_vert{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: beige;
+    text-align: center;
+}
+.nav2 img{
+    height: 4rem;
+    width: 4.5rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 0.6rem;
+}
+.nav2 div{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+#grocery{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 3rem;
+    /* display: flexbox; */
+}
+#grocery:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#grocery a:hover{
+    color: blue;
+}
+#mobiles{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#mobiles:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#mobiles a:hover{
+    color: blue;
+}
+#fashion{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#fashion:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#fashion a:hover{
+    color: blue;
+}
+#electronics{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#electronics:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#electronics a:hover{
+    color: blue;
+}
+#furniture{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#furniture:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#furniture a:hover{
+    color: blue;
+}
+#appliances{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#appliances:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#appliances a:hover{
+    color: blue;
+}
+#travel{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#travel:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#travel a:hover{
+    color: blue;
+}
+#beauty{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#beauty:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#beauty a:hover{
+    color: blue;
+}
+#children{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#children:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#children a:hover{
+    color: blue;
+}
+#food{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 3rem;
+}
+#food:hover{
+    background-color: aquamarine;
+    color: blue;
+}
+#food a:hover{
+    color: blue;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    background-color: rgba(0, 255, 255, 0.205);
+    height: 18rem;
+    /* width: 100rem; */
+}
+#para1{
+    display: inline-block;
+    height: 15rem;
+    width: 30rem;
+    text-transform: capitalize;
+    
+}
+.shopping_photo img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 16rem;
+    width: 35rem;
+    border-width: 0.5rem;
+    border-style: solid;
+    border-color: rgb(145, 255, 255);
+    border-radius: 1rem;
+}
+.buttons{
+    padding: 0.5rem;
+}
+#explore{
+    background-color: blue;
+    padding: 0.4rem;
+    margin-right: 0.5rem;
+    color: chartreuse;
+    font-weight: 700;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: darksalmon;
+}
+#explore:hover{
+    background-color: aqua;
+    color: brown;
+    border-color: chocolate;
+}
+#reviews{
+    background-color: blue;
+    color: rgb(255, 159, 255) ;
+    padding: 0.4rem;
+    margin-left: 0.5rem;
+    font-weight: 700;
+    border-width: 0.25rem;
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-color: darkorange;
+}
+#reviews:hover{
+    background-color: chartreuse;
+    color: darkblue;
+    border-color: deeppink;
+}
+.section2{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    align-items: top;
+    /* background-color: black; */
+    color: rgb(255, 255, 255);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section2 ul{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about ul{
+    list-style: none;
+}
+.help ul{
+    list-style: none;
+}
+.consumer ul{
+    list-style: none;
+}
+.social ul{
+    list-style: none;
+}
+.mail ul{
+    list-style: none;
+}
+.address ul{
+    list-style: none;
+}
+.section2 a{
+    text-decoration: none;
+    color: beige;
+}
+.section3{
+    display: flex;
+    background-color: blanchedalmond;
+}
+.electronic_sale{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.electronic_sale{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: beige;
+    text-align: center;
+}
+.electronic_sale img{
+    height: 6rem;
+    width: 8rem;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: cornsilk;
+    border-radius: 0.6rem;
+}
+.electronic_sale div{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+@media only screen and (max-width:450px){
+    /* html{
+        font-size: 16px;
+    } */
+    /* .section1{
+        flex-direction: column-reverse;
+    } */
+    #check:checked ~ ul{
+        /* left: 200px; */
+        left: 0;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    nav ul{
+        /* display: none; */
+        position: fixed;
+        top: 54px;
+        /* left: -100%; */
+        width: 100%;
+        height: 100vh;
+        background-color: firebrick;
+        left: -100%;
+        flex-direction: column;
+        transition: all 0.5s ease-in-out;
+    }
+    nav ul li a{
+        color: aquamarine;
+    }
+}
+
+
+
+
+
+
+
+
